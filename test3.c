@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("안녕하세요.\n");수정
+    printf("안녕하세요.\n");
     
     return 0;
-}
+}ㅐ
