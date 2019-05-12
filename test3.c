@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("æ»≥Á«œººø‰.\n");
+    printf("æ»≥Á«œººø‰!\n");
     
     return 0;
-}§¿
+}
