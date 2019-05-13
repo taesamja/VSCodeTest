@@ -1,3 +1,5 @@
+// 수행평가 - 야구게임
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
