@@ -1,9 +1,9 @@
-// ¼öÇàÆò°¡ - ¾ß±¸ °ÔÀÓ
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - ï¿½ß±ï¿½ ï¿½ï¿½ï¿½ï¿½
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-int main(void)
+int main()
 {
   int a[3];
   int b[3];
@@ -24,8 +24,8 @@ int main(void)
           if(a[0]!=0 && a[1]!=0 && a[2]!=0) 
             break;
       }
-      printf("Á¤´ä : %d %d %d\n", a[0], a[1], a[2]);
-      printf("¼ýÀÚ 3°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ¿¹) 1 2 3 (123¾ÈµÊ)\n");
+      printf("ï¿½ï¿½ï¿½ï¿½ : %d %d %d\n", a[0], a[1], a[2]);
+      printf("ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. ï¿½ï¿½) 1 2 3 (123ï¿½Èµï¿½)\n");
       printf("\nEnter three numbers : ");
       scanf("%d %d %d", &b[0], &b[1], &b[2]);
 
@@ -83,7 +83,7 @@ int main(void)
       }
 
 
-    printf("¾ß±¸°ÔÀÓ Àç½ÃÀÛ ÇÒ±î¿ä? (OK:1ÀÔ·Â, NO:2ÀÔ·Â)\n");
+    printf("ï¿½ß±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò±ï¿½ï¿½? (OK:1ï¿½Ô·ï¿½, NO:2ï¿½Ô·ï¿½)\n");
     scanf("%d", &choice);
     
     if(choice != 1) break;
