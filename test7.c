@@ -23,12 +23,14 @@ BMI         : 체중상태
 int main()
 {
     float bmi, weight, height;
-
+    printf("\n--------------------------------\n");
     printf("키 입력(cm) :  ");    scanf("%f", &height);
     printf("몸무게 입력(kg) : "); scanf("%f", &weight);
     
     bmi = weight / (height*0.01*height*0.01);
+    printf("\n");
     printf("bmi지수 = %.2f\n", bmi);
+    printf("측정 결과 : ");
 
     if(bmi < 18.5) 
         printf("저체중\n");
@@ -42,6 +44,8 @@ int main()
         printf("중증도 비만\n");
     else  
         printf("고도 비만\n");
+
+    printf("--------------------------------\n\n");
 
     return 0;
 }
